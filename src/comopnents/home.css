@@ -1,0 +1,26 @@
+.product-item li{
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    overflow: hidden;
+    height: 400px;
+    margin: 5px;
+}
+li p{
+    width: 100%;
+}
+li img{
+    height: 200px;
+    width: 80%;
+}
+
+.cart-item{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.cart-item li{
+    border-bottom: solid 1px gray;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
